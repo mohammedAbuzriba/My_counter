@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/countapp"
+            android:layout_width="190dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginBottom="544dp"
+            android:text="Counter" />
+
+        <Button
+            android:id="@+id/calcapp"
+            android:layout_width="190dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="107dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="114dp"
+            android:layout_marginBottom="424dp"
+            android:text="Calc Age" />
+
+        <Button
+            android:id="@+id/cthraedapp"
+            android:layout_width="190dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="345dp"
+            android:layout_marginEnd="113dp"
+            android:layout_marginBottom="309dp"
+            android:text="Conter thread" />
+
+        <Button
+            android:id="@+id/shapeapp"
+            android:layout_width="190dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="461dp"
+            android:layout_marginEnd="113dp"
+            android:layout_marginBottom="193dp"
+            android:text="shape art" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="190dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="571dp"
+            android:layout_marginEnd="113dp"
+            android:layout_marginBottom="83dp"
+            android:text="log out" />
+
+        <TextView
+            android:id="@+id/wellcom"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="76dp"
+            android:layout_marginBottom="644dp"
+            android:gravity="center"
+            android:text="Wellcome"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
